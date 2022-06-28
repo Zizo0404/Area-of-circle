@@ -1,0 +1,7 @@
+
+# a is the float variable and user gives value first
+a = float(input("Enter the radius of the circle: "))
+area = float(a*a*3.1415)
+perimetr = float(2*3.1415*a)
+print("The area of circle is: " + str(area))
+print("The circumferance of the circle is: " + str(perimetr))
